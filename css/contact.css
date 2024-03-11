@@ -1,0 +1,51 @@
+.contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  padding: 7rem;
+  background-color: #d1ba9f;
+  color: #335576;
+  min-height: 100vh;
+}
+
+.contact h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.contact__form {
+  display: inline;
+  padding: 2.5rem 2.5rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  width: 40%;
+}
+
+.text, select {
+  width: 100%;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #335576;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1.25rem;
+}
+
+.submit {
+  width: 50%;
+  height: 2rem;
+  background-color: #db7a4e;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+}
+
+.submit:hover {
+  background-color: #a7410e;
+}
